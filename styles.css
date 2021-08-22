@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fffeec;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -52,23 +52,28 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #ff8585 0%, #fdd522 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #deff20 0%, #a2e068 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #a5fa84 0%, #8ff4b1 100%);
 }
 
 .hold {
   border: 5px solid #eee;
+  border-radius: 20px;
+  cursor: grabbing;
 }
 .hide {
   display: none;
 }
 .hovered {
-	border-top: 2px solid #333;
+  background-color: rgb(233, 232, 232);
+  border: 2px dashed rgb(202, 202, 202);
+  border-radius: 20px;
+  cursor: grabbing;
 }
